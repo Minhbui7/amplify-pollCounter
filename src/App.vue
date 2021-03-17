@@ -6,19 +6,19 @@
 <b-row align-h="center" class="mt-5">
       <b-card-group deck>
         <b-card bg-variant="success" text-variant="white" header="Vote Yes" class="text-center" footer-tag="footer">
-          <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+          <b-card-text>Yes. The call was correct.</b-card-text>
           <b-button size="lg" variant="primary"  @click="vote('yes')">Button</b-button>
           <em slot="footer">{{ votesYes }} voted</em>
         </b-card>
 <b-card bg-variant="danger" text-variant="white" header="Vote No" class="text-center" footer-tag="footer">
-          <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+          <b-card-text>No. The referee is wrong!</b-card-text>
           <b-button size="lg" variant="primary" @click="vote('no')">Button</b-button>
           <em slot="footer">{{ votesNo }} voted</em>
         </b-card>
       </b-card-group>
     </b-row>
     <b-row align-h="center" class="mt-5">
-      <p>Questions? Ask James <a href="https://twitter.com/jbesw">@jbesw</a>.</p>
+      <p>My github repo:  <a href="https://github.com/Minhbui7/">@minhbui7</a>.</p>
     </b-row>
   </div>  
 </template>
