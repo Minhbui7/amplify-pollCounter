@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="hello">
+  <div id="app" class="hello" :style="{'background-image':'url(https://media.contentapi.ea.com/content/www-easports/en_US/fifa/ultimate-team/news/2017/fut-18-path-to-glory-faq/_jcr_content/headerImages/image.img.png)'}">
 <h1>Was the referee call correct? Vote below !</h1> 
 	<h1>(This is a Serverless Voting App)</h1>
 	<h4>Click to vote</h4>
