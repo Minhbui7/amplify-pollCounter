@@ -1,9 +1,9 @@
 <template>
   <div id="app" class="hello" :style="{'background-image':'url(https://media.contentapi.ea.com/content/www-easports/en_US/fifa/ultimate-team/news/2017/fut-18-path-to-glory-faq/_jcr_content/headerImages/image.img.png)'}">
-<h1>Was the referee call correct? Vote below !</h1> 
-	<h1>(This is a Serverless Voting App)</h1>
-	<h4>Click to vote</h4>
-	<h4>You can vote as many times as you like</h4>
+<h1 style="color:beige;">Was the referee call correct? Vote below !</h1> 
+	<h1 style="color:beige;">(This is a Serverless Voting App)</h1>
+	<h4 style="color:beige;">Click to vote</h4>
+	<h4 style="color:beige;">You can vote as many times as you like</h4>
 <b-row align-h="center" class="mt-5">
       <b-card-group deck>
         <b-card bg-variant="success" text-variant="white" header="Vote Yes" class="text-center" footer-tag="footer">
@@ -19,7 +19,7 @@
       </b-card-group>
     </b-row>
     <b-row align-h="center" class="mt-5">
-      <p>My github repo:  <a href="https://github.com/Minhbui7/">@minhbui7</a>.</p>
+      <p style="color:beige;">My github repo:  <a href="https://github.com/Minhbui7/">@minhbui7</a>.</p>
     </b-row>
   </div>  
 </template>
