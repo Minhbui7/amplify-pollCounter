@@ -3,7 +3,7 @@
 <h1 style="color:beige;">Was the referee call correct? Vote below !</h1> 
 	<h1 style="color:beige;">(This is a Serverless Voting App)</h1>
 	<h4 style="color:beige;">Click to vote</h4>
-	<h4 style="color:beige;">You can vote as many times as you like</h4>
+	<h4 style="color:beige;"></h4>
 <b-row align-h="center" class="mt-5">
       <b-card-group deck>
         <b-card bg-variant="success" text-variant="white" header="Vote Yes" class="text-center" footer-tag="footer">
